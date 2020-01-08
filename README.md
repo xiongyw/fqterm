@@ -1,3 +1,17 @@
+on ubuntu 19.11:
+
+```
+$ sudo apt install qt4-dev-tools libssl-dev
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make
+$ sudo make install
+$ fqterm
+```
+
+
+
 ## FQTerm
 FQTerm是为Telnet BBS设计的终端模拟器(俗称Term)，支持Telnet,SSH协议。    
 本项目源自QTerm-Qt3,从2008年起，由Curvlet和dp2重写并移植至Qt4.    
